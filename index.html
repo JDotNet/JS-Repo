@@ -5,15 +5,17 @@
 	<title>
 		
 	</title>
+	<link rel="stylesheet"  href="normalize.css">
+	<link rel="stylesheet"  href="estilos.css">
 </head>
 <body>
 	<header>
 		<figure id="logo">
-			<img src="avatar.png" />
+			<img src="logo.jpg" />
 		</figure>
 		<h1>Titulo de la pagina principal</h1>
 		<figure id="avatar">
-			<img src="avatar.png" />
+			<img src="avatar.jpg" />
 		</figure>
 	</header>
 	<nav>
@@ -22,15 +24,37 @@
 			<li><a href="#"/>Nosotros</a></li>
 			<li><a href="#"/>Cursos</a></li>
 			<li><a href="#"/>Diplomados</a></li>
+			<li id="publicar"><a href="#"/>Publicar</a></li>
 		</ul>
 	</nav>
-	<section>
-		<article>
-			
+	<section id="contenido">
+		<article class="elemento">			
+			<figure class="imagen_elemento">
+				<img src="imagen.jpg" />
+			</figure>
+			<h2 class="titulo_elemento">
+				<a href="">Acá viene el contenido del articulo</a>
+			</h2>
+			<div class="autor_item">
+				por <a href="#">Nombre del autor</a>
+			</div>
+			<div class="datos_item">
+				<a href="#" class="categoria_item">Categoria</a>						
+			</div>
+			<div class="votacion">
+				<a href="#" class="up">U</a>	
+				720
+				<a href="#" class="down">D</a>	
+				<span class="fecha_item">hace <strong>5</strong> minutos</span>
+				<a href="#" class="favorito_item">X</a>
+			</div>
 		</article>
 	</section>
 	<footer>
-		
+		<p>
+			<strong>Powered by JDotNet Solutions</strong>
+		</p>
 	</footer>
 </body>
 </html>
+
